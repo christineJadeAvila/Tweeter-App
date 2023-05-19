@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './scss/index.scss'
 
 import { Home } from './pages/Home'
 import { Profile } from './pages/Profile'
@@ -10,8 +11,8 @@ function App() {
   return (
     <>
       <Home/>
-      <Profile/>
-      <Messages/>
+      {/* <Profile/>
+      <Messages/> */}
     </>
   )
 }

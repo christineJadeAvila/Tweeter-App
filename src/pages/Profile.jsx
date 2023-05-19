@@ -41,7 +41,7 @@ export const Profile = () => {
         
         {/* first container */}
          <Navigation />
-
+ 
         {/* Second Container */}
          <ProfileContainer />
 
@@ -51,3 +51,5 @@ export const Profile = () => {
     </section>
   )
 }
+
+

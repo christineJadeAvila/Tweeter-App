@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+$main-font: "Poppins", Arial;
+$main-font: "Poppins", Arial;
+$main-color: #7856FF;
+$light-main-color: #E4DDFE;
+$main-dark-color: black;
+$main-light-color: white;
+$fweight-s: 400;
+$normal-margin: 1rem;
+$border: 0.5px solid $main-color;
+$alert-color: red;
+
+:root { 
+    font-family: $main-font;
+    margin: 0px 1rem 0px 1rem;
+}
+
+hr {
+    color: $main-color;
+}
+
+#grid--container {
+    display: flex;
+    justify-content: center;
+}
+
+// navigation bar
+
+#nav--container {
+    border-right: $border;
+    border-left: $border;
+
+    #f-user--header {
+        display: flex;
+        margin: 1rem 5rem 0 2rem;
+        font-size: small;
+    }
+
+    .f-nav--list {
+        padding: 0.5rem;
+        list-style-type: none;
+        justify-content: space-around;
+        margin-left: $normal-margin;
+    }
+
+    .f-nav--list:hover {
+        color: $main-color;
+        text-decoration: underline;
+    }
+
+    .weather--api {
+        border: $border;
+        border-radius: 10px;
+
+        padding: 0rem 50px 140px 1.5rem;
+
+        margin-top: 1rem;
+        margin-right: 3rem;
+    }
+
+}
+
+// posts area
+#body-lists {
+    width: 40%;
+
+    #upper--post-body {
+        display: grid;
+        grid-template-columns: 10% 90%;
+    
+        margin: $normal-margin;
+    }
+}
+
+#upper--post-body {
+    #post-form {
+        margin-bottom: 1rem;
+    }
+
+    #post--area {
+        resize: none;
+        height: 181px;
+        width: 318px;
+    
+        color: $main-color;
+        font-family: $main-font;
+        padding: 1rem;
+        border: none;
+    }
+
+    #post--button {
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+        margin-left: 3rem;
+        border: none;
+        background-color: $main-color;
+        color: $main-light-color;
+        border-radius: $normal-margin;
+    }
+
+
+}
+
+.post--lists {
+    #post--properties {
+        margin: $normal-margin;
+    }  
+
+    .post--lists:hover {
+        opacity: 70%;
+    }
+
+    .post--lists:active {
+        opacity: 100%;
+    }
+}
+
+#post--properties {
+    .user--header {
+        display: flex;
+    }
+    #name {
+        margin-left: $normal-margin;
+        font-weight: $fweight-s;
+    }
+    #username:hover {
+        text-decoration: underline;
+    }
+    #username { 
+        opacity: 50%;
+    }
+    .user--post {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    
+        text-align: left;
+    }
+
+    // nav bar
+    #nav--list{
+        display: flex;
+        justify-content: space-around;
+    
+        list-style-type: none;
+    }
+    #nav--list li {
+        display: flex;
+    }
+    #nav--list img:hover {
+        transform: rotate(0.1turn);
+        cursor: pointer;
+    }
+    
+    #nav--list li:active {
+        color: $main-color;
+        display: flex;
+    }
+}
+
+// trending bar 
+#query--section {
+    border-left: $border;
+    border-right: $border;
+    
+
+}
+#query--container {
+    #search {
+        border: $border;
+        border-radius: 20px;
+
+        width: 280px;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    #search::placeholder {
+        color: $main-color;
+    }
+
+    #trends {
+        border: $border;
+        border-radius: 20px;
+    
+        height: 400px;
+        width: 280px;
+        margin: 1rem;
+        padding: 1rem;
+    
+    }
+
+    #messages-- {
+        border: $border;
+        border-radius: 20px;
+    
+        width: 280px;
+        
+        margin: 1rem;
+        padding: 1rem;
+    
+    }
+    
+}
+#trends {
+    .trending--condition {
+        line-height: 0;
+        font-weight: $fweight-s;
+
+        opacity: 50%;
+        font-size: small;
+    }
+    .treding--content {
+        font-weight: $fweight-s;
+        font-size: small;
+    }
+    .trends--lists {
+        padding: 0px 1rem 0px 1rem;
+    }
+    .trends--lists:hover {
+        text-decoration: underline ;
+       
+    }
+    #live--status {
+        color: $alert-color;
+    }
+}
+
+
+
+
