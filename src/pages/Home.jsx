@@ -1,28 +1,30 @@
 import React from 'react'
 
-
-export const FirstCon = () => {
+export const Navigation = () => {
     return (
         <nav id="nav--container">
+
                 <div id="f-user--header">
                     <img src="./assets/default-user-profile.svg" alt=""/>
                     <h1 id="name"><b>Christine Jade Avila </b><br/><span id="username">@chjadeavila</span> </h1>
                 </div>
+
                 <ul>
-                    <li className="f-nav--list"><b>Home</b></li>
+                    <li className="f-nav--list">Home</li>
                     <li className="f-nav--list">Profile</li>
-                    <li className="f-nav--list">Messages</li>
+                    <li className="f-nav--list">Messages</li>   
                     <li className="f-nav--list">Bookmarks</li>
                     <li className="f-nav--list">Notifications</li>
                     <section className="weather--api">
                         <h4>Weather Update</h4>     
                     </section>
                 </ul>
+
         </nav>
     )
 }
 
-export const SecondCon = () => {
+const Posts = () => {
     return (
         <section id="body-lists">
 
@@ -112,7 +114,7 @@ export const SecondCon = () => {
     )
 }
 
-export const ThirdCon = () => {
+export const Trends = () => {
     return (
         <section id="query--section">
         <div id="query--container">
@@ -153,13 +155,13 @@ export const Home = () => {
   return (
     <section id="grid--container">
         {/* first container */}
-            <FirstCon/>
+            <Navigation />
 
-       {/* second container */}
-            <SecondCon/>
+        {/* second container */}
+            <Posts />
 
         {/* third container */}
-            <ThirdCon/>
+            <Trends />
     </section>
   )
 }

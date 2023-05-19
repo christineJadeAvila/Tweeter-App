@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import { Home } from './pages/Home'
 import { Profile } from './pages/Profile'
+import { Messages } from './pages/Messages'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +10,8 @@ function App() {
   return (
     <>
       <Home/>
+      <Profile/>
+      <Messages/>
     </>
   )
 }
