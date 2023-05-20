@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navigation , Trends } from './Home'
+import { Navigation } from './components/Navigation'
 
 const ProfileContainer = () => {
     return (

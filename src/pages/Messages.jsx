@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navigation } from './Home'
+import { Navigation } from './components/Navigation'
 
 //   NOTE! I am having trouble creating independent 
 //   function of messages-lists and messages-section.
@@ -9,7 +9,7 @@ export const Messages = () => {
     return (
         <section id="grid--container">
             {/* First Container*/}
-            <Navigation />
+                <Navigation />
         
             {/* Second Container */}
             <section id="messages-lists">
