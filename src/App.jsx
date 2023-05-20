@@ -10,9 +10,9 @@ function App() {
 
   return (
     <>
-      <Home/>
-      {/* <Profile/>
-      <Messages/> */}
+      {/* <Home/>
+      <Profile/> */}
+      <Messages/>
     </>
   )
 }

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Navigation } from './components/Navigation'
+import { Trends } from './components/Trends'
+
 
 const ProfileContainer = () => {
     return (
