@@ -111,20 +111,23 @@ hr {
     opacity: 100%;
     }
 }
-#post--properties {
-    .user--header {
+
+.user--header {
     display: flex;
     }
-    #name {
+#name {
     margin-left: $normal-margin;
     font-weight: $fweight-s;
-    }
-    #username:hover {
+}
+#username:hover {
     text-decoration: underline;
-    }
-    #username { 
+}
+#username { 
     opacity: 50%;
-    }
+}
+
+#post--properties {
+    
     .user--post {
     margin-left: 4rem;
     margin-right: 4rem;
