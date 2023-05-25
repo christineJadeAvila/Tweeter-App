@@ -12,7 +12,7 @@ export const Messages = () => {
                 <Navigation />
         
             {/* Second Container */}
-            <section id="messages-lists">
+            <section id="messages--lists">
                 <h3 >Messages</h3>
                 <form action="">
                     <input id="m-search" type="search" placeholder="Search..."/>
