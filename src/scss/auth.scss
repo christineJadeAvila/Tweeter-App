@@ -1,0 +1,85 @@
+@import "index";
+
+:root {
+    margin: 0px;
+}
+
+.flex--container {
+    font-family: $main-font;
+    color: $main-color;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute; 
+    top: 45%;
+    transform: translate(100%, -50%);
+    padding: 5rem;
+
+}
+
+.navigation--bar {
+    display: flex;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+    ::placeholder {
+        color: #7856FF;
+        opacity: 30%;
+    }
+    input:hover {
+        opacity: 50%;
+    }
+    input {
+        border: $border;
+        border-radius: 10px;
+        padding: 1rem;
+        margin: 5px;
+    }
+}
+
+button {
+    padding: 0.5rem;
+    margin: 12px;
+    background-color: white;
+
+    border: 0.5px solid #7856FF;
+    border-radius: 5px;
+
+    width: 30%;
+
+    color: #7856FF;
+
+    button:hover {
+        background-color: #7856FF;
+        color: white;   
+        cursor: pointer; 
+    }
+}
+
+h2 {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+a {
+    color: #7856FF;
+
+    a:hover {
+        opacity: 50%;
+    }
+}
+
+img {
+    margin-left: 5rem;
+}
+
+
