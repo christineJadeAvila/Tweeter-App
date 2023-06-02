@@ -1,6 +1,12 @@
 import React from 'react'
 import '../scss/auth.scss'
 
+
+
+const signIn = () => {
+  
+}
+
 export const Auth = () => {
   return (
     <div className='flex--container'> 
